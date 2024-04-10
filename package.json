@@ -1,0 +1,26 @@
+{
+  "titleId": "0142dc1f33ff0000",
+  "name": "kip-restore",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "build": "esbuild --bundle --sourcemap --sources-content=false --target=es2022 src/main.ts --outfile=romfs/main.js",
+    "nro": "nxjs-nro",
+    "nsp": "nxjs-nsp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nx.js/constants": "0.1.0"
+  },
+  "devDependencies": {
+    "@nx.js/nro": "^0.0.41",
+    "@nx.js/nsp": "^0.0.41",
+    "esbuild": "^0.17.19",
+    "nxjs-runtime": "^0.0.41"
+  },
+  "author": {
+    "name": "LitleStuart",
+    "telegram": "@litlestuart"
+  }
+}
